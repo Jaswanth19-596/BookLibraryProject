@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Book Library Project</string>
+    <string name="todo">TODO</string>
+    <string name="enter_book_title">Enter Book Title</string>
+    <string name="enter_author">Enter author</string>
+    <string name="number_of_pages">Number Of Pages</string>
+</resources>
