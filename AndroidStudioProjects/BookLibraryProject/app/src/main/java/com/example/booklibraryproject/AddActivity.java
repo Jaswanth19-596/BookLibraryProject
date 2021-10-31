@@ -14,7 +14,7 @@ public class AddActivity extends AppCompatActivity {
     private EditText author_input;
     private EditText pages_input;
     private Button addButton;
-    Activity activity;
+//    Activity activity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +25,6 @@ public class AddActivity extends AppCompatActivity {
         author_input=findViewById(R.id.author_input);
         pages_input=findViewById(R.id.pages_input);
         addButton=findViewById(R.id.addButton);
-
         addButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -35,6 +34,7 @@ public class AddActivity extends AppCompatActivity {
                 int pages=Integer.parseInt(pages_input.getText().toString());
 
                 helper.addBook(title,author,pages);
+
 
             }
         });
